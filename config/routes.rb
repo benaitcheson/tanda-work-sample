@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "organisations#index"
+  root 'organisations#index'
 
   resources :organisations
 end
