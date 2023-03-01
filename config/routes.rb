@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
   root 'organisations#index'
+
+  devise_for :users
 
   resources :organisations do
     resources :users
